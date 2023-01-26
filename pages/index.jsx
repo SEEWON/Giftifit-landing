@@ -32,29 +32,7 @@ const Home = () => {
     <>
       <Head>
         <title>우리 회사 직원을 위한 선물 복지 솔루션, 기프티핏</title>
-        <meta name="description" content="직원이 원하는 그 선물을 위한 사내 선물복지 솔루션, 기프티핏" />
-        <meta
-          name="description"
-          content="매번 같은 선물은 이제 그만! 복지 담당자와 직원 모두의 만족도를 위한 기업용 선물복지 서비스"
-        />
-        <meta name="keywords" content="복지, 사내 복지, 임직원 복지, 선물 복지, 생일, 선물, 스타트업, 중소기업" />
-        <meta
-          property="og:image"
-          content="https://user-images.githubusercontent.com/50395394/214743809-126504cf-2bf6-4b34-8dac-3fda14043891.png"
-        />
-        <meta property="og:title" content="우리 회사 직원을 위한 선물 복지 솔루션, 기프티핏" />
-        <meta
-          property="og:description"
-          content="매번 같은 선물은 이제 그만! 복지 담당자와 직원 모두의 만족도를 위한 기업용 선물복지 서비스"
-        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="stylesheet"
-          as="style"
-          crossorigin
-          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css"
-        />
       </Head>
       <Wrapper>
         <Container>
@@ -154,10 +132,10 @@ const Home = () => {
                       priority
                     />
                     <CardTextBox1>
-                      <BlackText size="20px" weight="800">
+                      <BlackText size="20px" weight="700">
                         손쉬운 클릭 몇 번으로
                         <br />
-                        <PinkText size="20px" weight="800">
+                        <PinkText size="20px" weight="700">
                           직원 만족도
                         </PinkText>
                         를 한번에 UP
@@ -180,8 +158,8 @@ const Home = () => {
                       priority
                     />
                     <CardTextBox1>
-                      <BlackText size="20px" weight="800">
-                        <PinkText size="20px" weight="800">
+                      <BlackText size="20px" weight="700">
+                        <PinkText size="20px" weight="700">
                           직원들의 취향
                         </PinkText>
                         을 반영한 <br />
@@ -205,8 +183,8 @@ const Home = () => {
                       priority
                     />
                     <CardTextBox1>
-                      <BlackText size="20px" weight="800">
-                        <PinkText size="20px" weight="800">
+                      <BlackText size="20px" weight="700">
+                        <PinkText size="20px" weight="700">
                           어떤 선물이든{" "}
                         </PinkText>
                         리스트에 <br />
@@ -300,14 +278,14 @@ const Home = () => {
                     </PinkText>
                   </Section6Content1>
                   <Section6Content2>
-                    <GrayText size="20px" weight="500" lineHeight="150%">
+                    <GrayText2 size="20px" weight="500" lineHeight="150%">
                       받는 사람이 만족해야 진짜 선물이니까!
-                    </GrayText>
+                    </GrayText2>
                   </Section6Content2>
                   <Section6Content3>
-                    <BlackText size="24px" weight="700">
+                    <BlackText size="24px" weight="700" lineHeight="140%">
                       기프티핏에서는 <br />
-                      <PinkText size="24px" weight="700">
+                      <PinkText size="24px" weight="700" lineHeight="140%">
                         받고 싶은 선물
                       </PinkText>
                       을 선택할 수 있어요
@@ -329,13 +307,13 @@ const Home = () => {
                     </PinkText>
                   </Section6Content1>
                   <Section6Content2>
-                    <GrayText size="20px" weight="500" lineHeight="150%">
+                    <GrayText2 size="20px" weight="500" lineHeight="150%">
                       취향이 다양한 직원들을 위해
-                    </GrayText>
+                    </GrayText2>
                   </Section6Content2>
                   <Section6Content3>
-                    <BlackText size="24px" weight="700">
-                      <PinkText size="24px" weight="700">
+                    <BlackText size="24px" weight="700" lineHeight="140%">
+                      <PinkText size="24px" weight="700" lineHeight="140%">
                         우리 회사 직원
                       </PinkText>
                       들만을 위한 <br />
@@ -358,14 +336,14 @@ const Home = () => {
                     </PinkText>
                   </Section6Content1>
                   <Section6Content2>
-                    <GrayText size="20px" weight="500" lineHeight="150%">
+                    <GrayText2 size="20px" weight="500" lineHeight="150%">
                       원하는 선물이 리스트에 없다구요?
-                    </GrayText>
+                    </GrayText2>
                   </Section6Content2>
                   <Section6Content3>
-                    <BlackText size="24px" weight="700">
+                    <BlackText size="24px" weight="700" lineHeight="140%">
                       직원은{" "}
-                      <PinkText size="24px" weight="700">
+                      <PinkText size="24px" weight="700" lineHeight="140%">
                         직접 선물을 등록
                       </PinkText>
                       해 <br />
@@ -473,9 +451,9 @@ const Home = () => {
             <FadeInSection>
               <Section8Group>
                 <Section8Content1>
-                  <BlackText size="36px" weight="800">
+                  <BlackText size="36px" weight="700">
                     우리 회사{" "}
-                    <PinkText size="36px" weight="800">
+                    <PinkText size="36px" weight="700">
                       선물복지의 만족도
                     </PinkText>
                     를<br />
@@ -514,12 +492,19 @@ const GrayText = styled.span`
   color: #565656;
   line-height: ${(props) => props.lineHeight || "160%"};
 `;
+const GrayText2 = styled.span`
+  font-size: ${(props) => props.size || "16px"};
+  font-weight: ${(props) => props.weight || "400"};
+  color: #525252cc;
+  line-height: ${(props) => props.lineHeight || "160%"};
+`;
 const LightGrayText = styled.span`
   font-size: ${(props) => props.size || "16px"};
   font-weight: ${(props) => props.weight || "400"};
   color: #929191;
   line-height: ${(props) => props.lineHeight || "160%"};
 `;
+
 const DotText = styled.span`
   text-emphasis-style: dot;
   text-emphasis-position: over left;
@@ -541,8 +526,6 @@ const FadeContainer = styled.div`
 `;
 
 const Wrapper = styled.div`
-  /* @import url("https://webfontworld.github.io/pretendard/Pretendard.css"); */
-  /* @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css"); */
   font-family: "Pretendard Variable";
   width: 100%;
   display: flex;
@@ -756,7 +739,7 @@ const Section6Content1 = styled.div`
   margin-bottom: 16px;
 `;
 const Section6Content2 = styled.div`
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 `;
 const Section6Content3 = styled.div``;
 const Section6_1Img = styled.div`

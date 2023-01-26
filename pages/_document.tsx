@@ -1,18 +1,3 @@
-// import { Html, Head, Main, NextScript } from "next/document";
-// import { ServerStyleSheet } from "styled-components";
-
-// export default function Document() {
-//   return (
-//     <Html lang="en">
-//       <Head />
-//       <body>
-//         <Main />
-//         <NextScript />
-//       </body>
-//     </Html>
-//   );
-// }
-
 import Document, { Html, Head, Main, NextScript, DocumentContext } from "next/document";
 import { ServerStyleSheet } from "styled-components";
 
@@ -45,7 +30,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>우리 회사 직원을 위한 선물 복지 솔루션, 기프티핏</title>
           <meta name="description" content="직원이 원하는 그 선물을 위한 사내 선물복지 솔루션, 기프티핏" />
           <meta
             name="description"
@@ -61,7 +45,6 @@ class MyDocument extends Document {
             property="og:description"
             content="매번 같은 선물은 이제 그만! 복지 담당자와 직원 모두의 만족도를 위한 기업용 선물복지 서비스"
           />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
           <link
             rel="stylesheet"
