@@ -32,6 +32,12 @@ const Home = () => {
     <>
       <Head>
         <title>우리 회사 직원을 위한 선물 복지 솔루션, 기프티핏</title>
+        <link
+            rel="stylesheet"
+            as="style"
+            crossOrigin="true"
+            href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css"
+          />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Wrapper>

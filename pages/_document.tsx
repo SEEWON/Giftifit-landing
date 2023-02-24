@@ -46,12 +46,6 @@ class MyDocument extends Document {
             content="매번 같은 선물은 이제 그만! 복지 담당자와 직원 모두의 만족도를 위한 기업용 선물복지 서비스"
           />
           <link rel="icon" href="/favicon.ico" />
-          <link
-            rel="stylesheet"
-            as="style"
-            crossOrigin="true"
-            href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css"
-          />
         </Head>
         <body>
           <Main />
